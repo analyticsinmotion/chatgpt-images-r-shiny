@@ -24,7 +24,7 @@ golem::fill_desc(
   pkg_description = "A system for accessing the ChatGPT Image Generation tool, and easily creating pictures based on user description.", # The Description of the package containing the App
   author_first_name = "AUTHOR_FIRST", # Your First Name
   author_last_name = "AUTHOR_LAST", # Your Last Name
-  author_email = "AUTHOR@MAIL.COM", # Your Email
+  author_email = "ross.armstrong@analyticsinmotion.com", # Your Email
   repo_url = NULL # The URL of the GitHub Repo (optional)
 )
 
