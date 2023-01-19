@@ -22,10 +22,10 @@ golem::fill_desc(
   pkg_name = "chatgptimages", # The Name of the package containing the App
   pkg_title = "A 'Shiny' App for creating images with ChatGPT", # The Title of the package containing the App
   pkg_description = "A system for accessing the ChatGPT Image Generation tool, and easily creating pictures based on user description.", # The Description of the package containing the App
-  author_first_name = "AUTHOR_FIRST", # Your First Name
-  author_last_name = "AUTHOR_LAST", # Your Last Name
+  author_first_name = "Ross", # Your First Name
+  author_last_name = "Armstrong", # Your Last Name
   author_email = "ross.armstrong@analyticsinmotion.com", # Your Email
-  repo_url = NULL # The URL of the GitHub Repo (optional)
+  repo_url = "https://github.com/analyticsinmotion/chatgpt-images-r-shiny" # The URL of the GitHub Repo (optional)
 )
 
 ## Set {golem} options ----
@@ -50,7 +50,7 @@ golem::use_recommended_tests()
 
 ## Favicon ----
 # If you want to change the favicon (default is golem's one)
-golem::use_favicon() # path = "path/to/ico". Can be an online file.
+golem::use_favicon("https://www.analyticsinmotion.com/favicon.ico") # path = "path/to/ico". Can be an online file.
 # golem::remove_favicon() # Uncomment to remove the default favicon
 
 ## Add helper functions ----
