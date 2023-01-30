@@ -8,12 +8,36 @@ app_ui <- function(request) {
   tagList(
     # Leave this function for adding external resources
     golem_add_external_resources(),
-    # Your application UI logic
-    fluidPage(
-      h1("chatgptimages")
+
+
+    ## START - MY CODE
+    shinydashboard::dashboardPage(
+      shinydashboard::dashboardHeader(title = "ChatGPT Images"),
+
+      shinydashboard::dashboardSidebar(
+        shinydashboard::sidebarMenu(
+          shinydashboard::menuItem("Instructions", tabName = "instructions", icon = icon("book-open-reader")),
+          shinydashboard::menuItem("Create Image", tabName = "create-image", icon = icon("plus")),
+          shinydashboard::menuItem("Image Gallery", tabName = "image-gallery", icon = icon("images")),
+          shinydashboard::menuItem("Settings", tabName = "settings", icon = icon("gear"))
+        )
+      ),
+
+      shinydashboard::dashboardBody(
+        shinydashboard::tabItems(
+          shinydashboard::tabItem(tabName = "settings", mod_input_apikey_ui("input_apikey_1")),
+          shinydashboard::tabItem(tabName = "create-image", mod_create_image_ui("create_image_1")),
+          shinydashboard::tabItem(tabName = "image-gallery", mod_show_gallery_ui("show_gallery_1")),
+          shinydashboard::tabItem(tabName = "instructions", mod_show_instructions_ui("show_instructions_1"))
+        )
+      )
+
     )
+    ## END - MY CODE
+
   )
 }
+
 
 #' Add external Resources to the Application
 #'

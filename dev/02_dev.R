@@ -15,25 +15,43 @@
 
 ## Dependencies ----
 ## Amend DESCRIPTION with dependencies read from package code parsing
-## install.package('attachment') # if needed.
+## install.package('attachment') # if needed. # The s is missing on package/s
+install.packages('attachment')
 attachment::att_amend_desc()
+## Add one line by package you want to add as dependency"
+usethis::use_package("shinydashboard", min_version = TRUE)
+usethis::use_package("openai", min_version = TRUE)
+
+## Add .Renviron in project root folder ----
+usethis::edit_r_environ("project")
 
 ## Add modules ----
 ## Create a module infrastructure in R/
-golem::add_module(name = "name_of_module1", with_test = TRUE) # Name of the module
-golem::add_module(name = "name_of_module2", with_test = TRUE) # Name of the module
+#golem::add_module(name = "name_of_module1", with_test = TRUE) # Name of the module
+#golem::add_module(name = "name_of_module2", with_test = TRUE) # Name of the module
+golem::add_module(name = "input_apikey", with_test = TRUE) # Get APIKey module
+golem::add_module(name = "create_image", with_test = TRUE) # Create an Image module
+golem::add_module(name = "show_gallery", with_test = TRUE) # Create an Gallery module
+golem::add_module(name = "show_instructions", with_test = TRUE) # Create an Instructions module
+
 
 ## Add helper functions ----
 ## Creates fct_* and utils_*
-golem::add_fct("helpers", with_test = TRUE)
-golem::add_utils("helpers", with_test = TRUE)
+#golem::add_fct("helpers", with_test = TRUE)
+#golem::add_utils("helpers", with_test = TRUE)
+golem::add_fct("set_apikey", with_test = FALSE)
+golem::add_fct("get_url", with_test = FALSE)
+golem::add_fct("get_filename", with_test = FALSE)
+golem::add_fct("get_images", with_test = FALSE)
+
+
 
 ## External resources
 ## Creates .js and .css files at inst/app/www
-golem::add_js_file("script")
-golem::add_js_handler("handlers")
-golem::add_css_file("custom")
-golem::add_sass_file("custom")
+#golem::add_js_file("script")
+#golem::add_js_handler("handlers")
+#golem::add_css_file("custom")
+#golem::add_sass_file("custom")
 
 ## Add internal datasets ----
 ## If you have data in your package
