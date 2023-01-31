@@ -25,19 +25,26 @@ This application provides a simple web interface using Shiny to dynamically crea
 <!-- INSTRUCTIONS -->
 ## 3. Instructions
 
-The application has 4 basic screens to navigate:
-1. Instructions
-2. Create Image
-3. Image Gallery
-4. Settings
-
-![Application Tabs](.github/assets/images/tabss.png?raw=true "App Tabs")
+The application has 4 basic screens to navigate - *Instructions*, *Create Image*, *Image Gallery*, and *Settings*.
+<br /><br />
+<img src=".github/assets/images/tabs.png" width=25% height=25%>
+<br /><br />
 
 ### 3.1 Instructions Page
+The instructions page is the default page that is shown when the application is run. It provides a complte run down of how to use the application.
+<br />
 
 ![ChatGPT Images UI](.github/assets/images/instructions.png?raw=true "ChatGPT Images UI")
+<br /><br />
 
 ### 3.2 Settings: - Enter API Key
+In order to use this application a user must have an API Key from OpenAI. This can be done by creating an account from the following link: https://chat.openai.com. Once a user has got their API Key it can be added into the app and saved.
+<br />
+
+![Enter API Key](.github/assets/images/settings_api_key_saved.png?raw=true "Enter API Key")
+<br />
+**Please Note:** Depending on how this application is deployed, the API Keys will be kept in persistant storage. That means they will persist until overwritten, even after shutting down the app. 
+<br /><br />
 
 ### 3.3 Create Image
 
