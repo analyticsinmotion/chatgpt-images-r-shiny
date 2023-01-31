@@ -45,6 +45,7 @@ In order to use this application a user must have an API Key from OpenAI. This c
 <!-- ![Enter API Key](.github/assets/images/settings_api_key_saved.png?raw=true "Enter API Key") -->
 <img src=".github/assets/images/settings_api_key_saved.png" width=100% height=100%>
 <br />
+
 **Please Note:** Depending on how this application is deployed, the API Keys will be kept in persistant storage. That means they will persist until overwritten, even after shutting down the app. 
 <br /><br />
 
