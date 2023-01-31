@@ -31,11 +31,14 @@ The application has 4 basic screens to navigate:
 3. Image Gallery
 4. Settings
 
+![Application Tabs](.github/assets/images/tabss.png?raw=true "App Tabs")
+
+### 3.1 Instructions Page
+
+![ChatGPT Images UI](.github/assets/images/instructions.png?raw=true "ChatGPT Images UI")
+
+### 3.2 Settings: - Enter API Key
+
+### 3.3 Create Image
 
 
-### 3.1 Settings: - Enter API Key
-
-
-
-
-### 3.2 Create Image
