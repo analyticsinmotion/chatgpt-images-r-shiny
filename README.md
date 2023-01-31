@@ -63,3 +63,9 @@ Then click the *Create Image* button. In 2-3 seconds the image will appear.
 <img src=".github/assets/images/create_image_kangaroo.png" width=100% height=100%>
 <br /><br />
 
+### 3.4 Image Gallery
+All images that a user creates will be stored in the gallery. 
+<br />
+
+<img src=".github/assets/images/image_gallery_1.png" width=100% height=100%>
+<br /><br />
