@@ -47,5 +47,15 @@ In order to use this application a user must have an API Key from OpenAI. This c
 <br /><br />
 
 ### 3.3 Create Image
+In the text box, type a description of the image you want ChatGPT to create.
+The generator can create images in 3 different sizes: 
+- 256x256
+- 512x512
+- 1024x1024. <br />
 
+This can be selected in the dropdown box.
+<br />
+
+![Create Image Kangaroo](.github/assets/images/create_image_kangaroo.png?raw=true "Create Image Kangaroo")
+<br /><br />
 
