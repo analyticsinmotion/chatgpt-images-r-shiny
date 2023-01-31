@@ -82,7 +82,7 @@ covrpage::covrpage()
 usethis::use_github()
 
 # GitHub Actions
-usethis::use_github_action()
+#usethis::use_github_action()
 usethis::use_github_actions()
 # Chose one of the three
 # See https://usethis.r-lib.org/reference/use_github_action.html
