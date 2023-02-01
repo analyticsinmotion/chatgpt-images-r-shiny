@@ -75,3 +75,55 @@ All images that a user creates will be stored in the gallery.
 
 <img src=".github/assets/images/image_gallery_1.png" width=100% height=100%>
 <br /><br />
+
+<!-- DIRECTORY STRUCTURE -->
+## 4. Directory Structure
+
+This project follows the golem/R Packages architecture.
+
+    chatgptimages
+    ├── DESCRIPTION
+    ├── NAMESPACE
+    ├── LICENSE
+    ├── LICENSE.md
+    ├── chatgptimages.Rproj
+    ├── .Renviron
+    ├── R
+    │   ├── app_config.R
+    │   ├── app_server.R
+    │   ├── app_ui.R
+    │   ├── fct_get_filename.R
+    │   ├── fct_get_images.R  
+    │   ├── fct_get_url.R
+    │   ├── fct_set_apikey.R
+    │   ├── golem_utils_server.R
+    │   ├── golem_utils_ui.R
+    │   ├── mod_create_image.R
+    │   ├── mod_input_apikey.R
+    │   ├── mod_show_gallery.R
+    │   ├── mod_show_instructions.R
+    │   └── run_app.R
+    ├── tests
+    │   ├── testthat
+    │   │   ├── test-golem_utils_server.R
+    │   │   ├── test-golem_utils_ui.R
+    │   │   ├── test-golem-recommended.R
+    │   │   ├── test-mod_create_image.R
+    │   │   ├── test-mod_input_apikey.R
+    │   │   ├── test-mod_show_gallery.R
+    │   │   └── test-mod_show_instructions
+    │   ├── spelling.R
+    │   ├── app_configtestthat.R
+    ├── dev
+    │   ├── 01_start.R
+    │   ├── 02_dev.R
+    │   ├── 03_deploy.R
+    │   └── run_dev.R
+    ├── inst
+    │   ├── app
+    │   │   └── www
+    │   │       └── favicon.ico
+    │   ├── golem-config.yml
+    │   └── WORDLIST
+    └── man
+        └── run_app.Rd
