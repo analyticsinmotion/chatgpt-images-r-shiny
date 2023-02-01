@@ -39,11 +39,10 @@ golem::add_module(name = "show_instructions", with_test = TRUE) # Create an Inst
 ## Creates fct_* and utils_*
 #golem::add_fct("helpers", with_test = TRUE)
 #golem::add_utils("helpers", with_test = TRUE)
-golem::add_fct("set_apikey", with_test = FALSE)
-golem::add_fct("get_url", with_test = FALSE)
-golem::add_fct("get_filename", with_test = FALSE)
-golem::add_fct("get_images", with_test = FALSE)
-
+golem::add_fct("set_apikey", with_test = TRUE)
+golem::add_fct("get_url", with_test = TRUE)
+golem::add_fct("get_filename", with_test = TRUE)
+golem::add_fct("get_images", with_test = TRUE)
 
 
 ## External resources
