@@ -29,18 +29,20 @@ This application provides a simple web interface using Shiny to dynamically crea
     
 ### 2.2 Launching the Project
 
-Step 1 - Download the repository
+*Step 1* - Download the repository
 <br />
 
-Step 2 - Open the project file chatgptimages.Rproj in RStudio
+*Step 2* - Open the project file chatgptimages.Rproj in RStudio
 <br />
 
-Step 3 - Open the run_dev.R file in the dev directory (see Section 4 - Directory Structure if you are unable to locate)
+*Step 3* - Open the run_dev.R file in the dev directory (see Section 5 - Directory Structure if you are unable to locate)
 <br />
 
-Step 4 - Run the run_dev.R file
+*Step 4* - Run the run_dev.R file
 <br />
+
 Your default browser should open with the application
+<br /><br />
     
 <!-- INSTRUCTIONS -->
 ## 3. Instructions
@@ -91,8 +93,26 @@ All images that a user creates will be stored in the gallery.
 <img src=".github/assets/images/image_gallery_1.png" width=100% height=100%>
 <br /><br />
 
+<!-- Top 10 Image Creation Ideas -->
+## 4. Top 10 Image Creation Ideas
+If you are stuck for inspiration try one of these creation prompts:
+```
+1. Oil painting mountains and water
+2. watercolor landscape
+3. Pointillism trees
+4. Futuristic cars
+5. Mona Lisa laughing
+6. An astronaut riding a horse in a photorealistic style
+7. Fantasy artwork
+8. Family Christmas photo
+9. Painting of a kangaroo cartoon style
+10. A funny image that makes me laugh
+```
+
+<br /><br />
+
 <!-- DIRECTORY STRUCTURE -->
-## 4. Directory Structure
+## 5. Directory Structure
 
 This project follows the golem/R Packages architecture.
 
