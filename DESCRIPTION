@@ -12,6 +12,7 @@ Imports:
     shiny (>= 1.7.4),
     shinydashboard (>= 0.7.2)
 Suggests: 
+    covr,
     spelling,
     testthat (>= 3.0.0)
 Config/testthat/edition: 3
