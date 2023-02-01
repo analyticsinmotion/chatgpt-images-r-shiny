@@ -27,6 +27,21 @@ This application provides a simple web interface using Shiny to dynamically crea
     - config (>= 0.3.1)
     - testthat (>= 3.0.0)
     
+### 2.2 Launching the Project
+
+Step 1 - Download the repository
+<br />
+
+Step 2 - Open the project file chatgptimages.Rproj in RStudio
+<br />
+
+Step 3 - Open the run_dev.R file in the dev directory (see Section 4 - Directory Structure if you are unable to locate)
+<br />
+
+Step 4 - Run the run_dev.R file
+<br />
+Your default browser should open with the application
+    
 <!-- INSTRUCTIONS -->
 ## 3. Instructions
 
