@@ -37,4 +37,3 @@ golem::add_dockerfile_with_renv()
 
 ## If you want to deploy to ShinyProxy
 golem::add_dockerfile_with_renv_shinyproxy()
-

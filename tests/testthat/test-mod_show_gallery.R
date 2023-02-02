@@ -25,7 +25,7 @@ testServer(
     # - Testing output
     # expect_true(inherits(output$tbl$html, "html"))
 })
- 
+
 test_that("module ui works", {
   ui <- mod_show_gallery_ui(id = "test")
   golem::expect_shinytaglist(ui)
@@ -35,4 +35,3 @@ test_that("module ui works", {
     expect_true(i %in% names(fmls))
   }
 })
- 
