@@ -7,7 +7,7 @@
 #' @noRd
 #'
 #' @importFrom shiny NS tagList
-mod_input_apikey_ui <- function(id){
+mod_input_apikey_ui <- function(id) {
   ns <- NS(id)
   tagList(
 
@@ -24,8 +24,8 @@ mod_input_apikey_ui <- function(id){
 #' input_apikey Server Functions
 #'
 #' @noRd
-mod_input_apikey_server <- function(id){
-  moduleServer(id, function(input, output, session){
+mod_input_apikey_server <- function(id) {
+  moduleServer(id, function(input, output, session) {
     ns <- session$ns
 
     ## START - MY CODE

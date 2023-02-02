@@ -5,7 +5,7 @@
 #' @return The return value, if any, from executing the function.
 #'
 #' @noRd
-get_url <- function(prompt, size){
+get_url <- function(prompt, size) {
   openai::create_image(prompt = prompt,
                        n = 1,
                        size = size,

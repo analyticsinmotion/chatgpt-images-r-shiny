@@ -5,7 +5,7 @@
 #' @return The return value, if any, from executing the function.
 #'
 #' @noRd
-get_images <- function(){
+get_images <- function() {
   images <- list.files(path="inst/app/www", pattern=".png", all.files=FALSE, full.names=TRUE)
   lapply(images,
          function(x) {

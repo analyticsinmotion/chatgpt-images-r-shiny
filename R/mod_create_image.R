@@ -7,7 +7,7 @@
 #' @noRd
 #'
 #' @importFrom shiny NS tagList
-mod_create_image_ui <- function(id){
+mod_create_image_ui <- function(id) {
   ns <- NS(id)
   tagList(
 
@@ -25,8 +25,8 @@ mod_create_image_ui <- function(id){
 #' create_image Server Functions
 #'
 #' @noRd
-mod_create_image_server <- function(id){
-  moduleServer(id, function(input, output, session){
+mod_create_image_server <- function(id) {
+  moduleServer(id, function(input, output, session) {
     ns <- session$ns
 
     ## START - MY CODE

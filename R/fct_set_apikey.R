@@ -5,7 +5,7 @@
 #' @return The return value, if any, from executing the function.
 #'
 #' @noRd
-set_apikey <- function(apikey){
+set_apikey <- function(apikey) {
   api_string <- paste("OPENAI_API_KEY=",apikey, sep = "")
   fileConn<-file(".Renviron")
   writeLines(api_string, fileConn)
