@@ -15,7 +15,7 @@
 
 ## Dependencies ----
 ## Amend DESCRIPTION with dependencies read from package code parsing
-## install.package('attachment') # if needed. # The s is missing on package/s
+## install.package('attachment')
 install.packages("attachment")
 attachment::att_amend_desc()
 ## Add one line by package you want to add as dependency"

@@ -25,7 +25,7 @@ mod_show_gallery_server <- function(id) {
     ns <- session$ns
 
     ## START - MY CODE
-    output$module_body = renderUI({
+    output$module_body <- renderUI({
       number_images <- length(get_images())
       image_splits <- split(get_images(), cut(seq_along(get_images()), 4, labels = FALSE))
       fluidRow(

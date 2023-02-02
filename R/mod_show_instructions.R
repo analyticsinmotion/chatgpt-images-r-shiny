@@ -29,7 +29,7 @@ mod_show_instructions_ui <- function(id) {
     p("After you have saved your API Key, click on the ", em("Create Image"), "tab."),
     p("In the text box, enter your description of the image that you would like produced."),
     p("Images can be generated in three sizes (in pixels):"),
-    tags$ul(tags$li("256 x 256"),tags$li("512 x 512"),tags$li("1024 x 1024")),
+    tags$ul(tags$li("256 x 256"), tags$li("512 x 512"), tags$li("1024 x 1024")),
     p("The images are created in a png format."),
     hr(),
     h4("Step 3 - View all images created"),

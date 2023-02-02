@@ -32,10 +32,10 @@ mod_create_image_server <- function(id) {
     ## START - MY CODE
     output$openaiResponse <- renderImage({
       url <- get_url(input$createimage, input$imagesizes)
-      filename <- paste("inst/app/www",get_filename(url), sep = "/")
-      download.file(url,filename, mode = "wb")
+      filename <- paste("inst/app/www", get_filename(url), sep = "/")
+      download.file(url, filename, mode = "wb")
       img_dimension <- as.numeric(sapply(strsplit(input$imagesizes, "x"), getElement, 1))
-      list(src = filename, contentType = "image/png",width = img_dimension, height = img_dimension,
+      list(src = filename, contentType = "image/png", width = img_dimension, height = img_dimension,
            alt = input$createimage)
     }, deleteFile = FALSE) |>
       bindEvent(input$buttonCreateImage)
