@@ -18,14 +18,14 @@ This application provides a simple web interface using Shiny to dynamically crea
 <!-- GETTING STARTED -->
 ## 2. Getting Started
 ### 2.1 Dependencies
-- Requires an OpenAI API Key (create an account and get API Key at https://chat.openai.com)
+- Requires an OpenAI API Key (create an account and get API Key at <a href="https://chat.openai.com">https://chat.openai.com</a>)
 - Requires the following packages:
-    - shiny (>= 1.7.4)
-    - golem (>= 0.3.5)
-    - shinydashboard (>= 0.7.2)
-    - openai (>= 0.3.0)
-    - config (>= 0.3.1)
-    - testthat (>= 3.0.0)
+  - shiny (>= 1.7.4)
+  - golem (>= 0.3.5)
+  - shinydashboard (>= 0.7.2)
+  - openai (>= 0.3.0)
+  - config (>= 0.3.1)
+  - testthat (>= 3.0.0)
     
 ### 2.2 Launching the Project
 
