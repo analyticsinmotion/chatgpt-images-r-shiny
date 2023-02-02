@@ -44,7 +44,7 @@ mod_show_instructions_ui <- function(id){
 #'
 #' @noRd
 mod_show_instructions_server <- function(id){
-  moduleServer( id, function(input, output, session){
+  moduleServer(id, function(input, output, session){
     ns <- session$ns
 
     ## START - MY CODE
