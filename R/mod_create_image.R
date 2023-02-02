@@ -13,9 +13,9 @@ mod_create_image_ui <- function(id) {
 
     ## START - MY CODE
     textAreaInput(ns("createimage"), label = "Enter the description to draw", rows = 3),
-    selectInput(ns("imagesizes"), "Size of Images", choices = c("256x256", "512x512" , "1024x1024")),
+    selectInput(ns("imagesizes"), "Size of Images", choices = c("256x256", "512x512", "1024x1024")),
     actionButton(ns("buttonCreateImage"), label = "Create Image", icon = icon("pencil")),
-    br(),br(),br(),
+    br(), br(), br(),
     imageOutput(ns("openaiResponse"))
     ## END - MY CODE
 

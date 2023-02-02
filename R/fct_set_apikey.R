@@ -6,7 +6,7 @@
 #'
 #' @noRd
 set_apikey <- function(apikey) {
-  api_string <- paste("OPENAI_API_KEY=",apikey, sep = "")
+  api_string <- paste("OPENAI_API_KEY=", apikey, sep = "")
   fileConn<-file(".Renviron")
   writeLines(api_string, fileConn)
   close(fileConn)
@@ -14,6 +14,6 @@ set_apikey <- function(apikey) {
   # Otherwise it will be stuck using the one that was in the .renviron file at startup
   path <- gsub("/", "\\\\", golem::get_golem_wd())
   filename <- "\\.Renviron"
-  full_path <- paste(path,filename, sep = "")
+  full_path <- paste(path, filename, sep = "")
   readRenviron(full_path)
 }

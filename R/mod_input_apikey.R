@@ -14,7 +14,7 @@ mod_input_apikey_ui <- function(id) {
     ## START - MY CODE
     passwordInput(ns("apikey"), label = "Enter your OpenAI API Key"),
     actionButton(ns("buttonSaveApiKey"), label = "Save", icon = icon("upload")),
-    br(),br(),
+    br(), br(),
     textOutput(ns("messageApiKeySaved"))
     ## END - MY CODE
 
