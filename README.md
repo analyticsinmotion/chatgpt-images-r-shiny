@@ -8,7 +8,9 @@ R Shiny Application/Package to create and manage images using ChatGPT.
 ![](https://img.shields.io/badge/Maintained%3F-yes-green.svg)&nbsp;&nbsp;
 [![R-CMD-check](https://github.com/analyticsinmotion/chatgpt-images-r-shiny/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/analyticsinmotion/chatgpt-images-r-shiny/actions/workflows/R-CMD-check.yaml)&nbsp;&nbsp;
 [![MIT license](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/analyticsinmotion/chatgpt-images-r-shiny/blob/main/LICENSE.md)&nbsp;&nbsp;
-![Lifecycle:Maturing](https://img.shields.io/badge/Lifecycle-Maturing-007EC6)
+![Lifecycle:Maturing](https://img.shields.io/badge/Lifecycle-Maturing-007EC6)&nbsp;&nbsp;
+[![test-coverage](https://github.com/analyticsinmotion/chatgpt-images-r-shiny/actions/workflows/test-coverage.yaml/badge.svg)](https://github.com/analyticsinmotion/chatgpt-images-r-shiny/actions/workflows/test-coverage.yaml)&nbsp;&nbsp;
+[![lintr](https://github.com/analyticsinmotion/chatgpt-images-r-shiny/actions/workflows/lintr.yml/badge.svg)](https://github.com/analyticsinmotion/chatgpt-images-r-shiny/actions/workflows/lintr.yml)&nbsp;&nbsp;
   <!-- badges: end -->
 
 <!-- DESCRIPTION -->
