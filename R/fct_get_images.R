@@ -10,6 +10,6 @@ get_images <- function() {
   lapply(images,
          function(x) {
            renderImage({
-             list(src = x, width = 256, height = 256, alt = x)}, deleteFile = F)
+             list(src = x, width = 256, height = 256, alt = x)}, deleteFile = FALSE)
          })
 }
