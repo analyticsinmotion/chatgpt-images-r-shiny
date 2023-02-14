@@ -17,6 +17,14 @@ R Shiny Application/Package to create and manage images using ChatGPT.
 ## 1. Description
 This application provides a simple web interface using Shiny to dynamically create images using OpenAI's ChatGPT models.
 
+
+
+
+https://user-images.githubusercontent.com/52817125/218607251-d3ca7d49-f95f-4f36-8d74-752755bba3d1.mp4
+
+
+
+
 <!-- GETTING STARTED -->
 ## 2. Getting Started
 ### 2.1 Dependencies
@@ -164,3 +172,13 @@ This project follows the golem/R Packages architecture.
     │   └── WORDLIST
     └── man
         └── run_app.Rd
+
+
+<!-- Best Practices for API Key Safety -->
+## 6. Best Practices for API Key Safety
+
+Your OpenAI APIKEY key/s should be kept secure and private at all times.
+
+Please follow the best practices guide for API security from OpenAI 
+<br />
+<a href="https://help.openai.com/en/articles/5112595-best-practices-for-api-key-safety">https://help.openai.com/en/articles/5112595-best-practices-for-api-key-safety</a>
