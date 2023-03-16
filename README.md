@@ -36,7 +36,9 @@ https://user-images.githubusercontent.com/52817125/218607251-d3ca7d49-f95f-4f36-
   - openai (>= 0.3.0)
   - config (>= 0.3.1)
   - testthat (>= 3.0.0)
-    
+ 
+Please be aware of the [costs](https://openai.com/pricing) associated with using the OpenAI API when utilizing this project. 
+ 
 ### 2.2 Launching the Project
 
 *Step 1* - Download the repository
