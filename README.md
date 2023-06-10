@@ -1,8 +1,20 @@
-# ChatGPT Images - R Shiny
-R Shiny Application/Package to create and manage images using ChatGPT.
-<br /><br />
+<div align="center">
+  
+ ![analytics-in-motion-chatgpt-images-r-shiny](https://github.com/analyticsinmotion/chatgpt-images-r-shiny/assets/52817125/1f00bace-ea56-45c3-ab62-17986e1602d2)
+  
+</div>
+
+<h1 align="center">ChatGPT Images - R Shiny</h1>
+
+
+
+
+
+
 
 <!-- badges: start -->
+<div align="center">
+  
 ![R](https://img.shields.io/badge/-4.2.2-blue?style=flat&labelColor=white&logo=r&logoColor=blue)&nbsp;&nbsp;
 [![Shiny](https://img.shields.io/badge/Shiny-1.7.4-blue?style=flat&labelColor=white&logo=RStudio&logoColor=blue)](https://shiny.rstudio.com)&nbsp;&nbsp;
 ![](https://img.shields.io/badge/Maintained%3F-yes-green.svg)&nbsp;&nbsp;
@@ -11,8 +23,12 @@ R Shiny Application/Package to create and manage images using ChatGPT.
 [![R-CMD-check](https://github.com/analyticsinmotion/chatgpt-images-r-shiny/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/analyticsinmotion/chatgpt-images-r-shiny/actions/workflows/R-CMD-check.yaml)&nbsp;&nbsp;
 [![test-coverage](https://github.com/analyticsinmotion/chatgpt-images-r-shiny/actions/workflows/test-coverage.yaml/badge.svg)](https://github.com/analyticsinmotion/chatgpt-images-r-shiny/actions/workflows/test-coverage.yaml)&nbsp;&nbsp;
 [![lintr](https://github.com/analyticsinmotion/chatgpt-images-r-shiny/actions/workflows/lintr.yml/badge.svg)](https://github.com/analyticsinmotion/chatgpt-images-r-shiny/actions/workflows/lintr.yml)&nbsp;&nbsp;
-[![Analytics in Motion](https://raw.githubusercontent.com/analyticsinmotion/.github/main/assets/images/analytics-in-motion-github-badge-rounded.svg)](https://www.analyticsinmotion.com)&nbsp;&nbsp;
+  
+   </div>
   <!-- badges: end -->
+<br />
+
+R Shiny Application/Package to create and manage images using ChatGPT.
 
 <!-- DESCRIPTION -->
 ## 1. Description
