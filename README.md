@@ -21,6 +21,7 @@
 ![Lifecycle:Maturing](https://img.shields.io/badge/Lifecycle-Maturing-007EC6)&nbsp;&nbsp;
 [![R-CMD-check](https://github.com/analyticsinmotion/chatgpt-images-r-shiny/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/analyticsinmotion/chatgpt-images-r-shiny/actions/workflows/R-CMD-check.yaml)&nbsp;&nbsp;
 [![test-coverage](https://github.com/analyticsinmotion/chatgpt-images-r-shiny/actions/workflows/test-coverage.yaml/badge.svg)](https://github.com/analyticsinmotion/chatgpt-images-r-shiny/actions/workflows/test-coverage.yaml)&nbsp;&nbsp;
+[![Analytics in Motion](https://raw.githubusercontent.com/analyticsinmotion/.github/main/assets/images/analytics-in-motion-github-badge-rounded.svg)](https://www.analyticsinmotion.com)
 
   
    </div>
