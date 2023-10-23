@@ -17,11 +17,13 @@
   
 ![R](https://img.shields.io/badge/-4.2.2-blue?style=flat&labelColor=white&logo=r&logoColor=blue)&nbsp;&nbsp;
 [![Shiny](https://img.shields.io/badge/Shiny-1.7.4-blue?style=flat&labelColor=white&logo=RStudio&logoColor=blue)](https://shiny.rstudio.com)&nbsp;&nbsp;
+[![DALL·E](https://img.shields.io/badge/DALL·E-000000?style=badge&logo=openai&logoColor=white)](https://openai.com/dall-e-2/)&nbsp;&nbsp;
 [![MIT license](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/analyticsinmotion/chatgpt-images-r-shiny/blob/main/LICENSE.md)&nbsp;&nbsp;
 ![Lifecycle:Maturing](https://img.shields.io/badge/Lifecycle-Maturing-007EC6)&nbsp;&nbsp;
 [![R-CMD-check](https://github.com/analyticsinmotion/chatgpt-images-r-shiny/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/analyticsinmotion/chatgpt-images-r-shiny/actions/workflows/R-CMD-check.yaml)&nbsp;&nbsp;
 [![test-coverage](https://github.com/analyticsinmotion/chatgpt-images-r-shiny/actions/workflows/test-coverage.yaml/badge.svg)](https://github.com/analyticsinmotion/chatgpt-images-r-shiny/actions/workflows/test-coverage.yaml)&nbsp;&nbsp;
-[![Analytics in Motion](https://raw.githubusercontent.com/analyticsinmotion/.github/main/assets/images/analytics-in-motion-github-badge-rounded.svg)](https://www.analyticsinmotion.com)
+[![OpenAI](https://img.shields.io/badge/OpenAI-000000?style=badge&logo=openai&logoColor=white)](https://openai.com)&nbsp;&nbsp;
+[![Analytics in Motion](https://raw.githubusercontent.com/analyticsinmotion/.github/main/assets/images/analytics-in-motion-github-badge-rounded.svg)](https://www.analyticsinmotion.com)&nbsp;&nbsp;
 
   
    </div>
